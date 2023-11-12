@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+#include<string.h>
+
+int main()
+
+{
+
+    char n[3500];
+
+    scanf("%s",&n);
+
+    if (n[0]>='a' && n[0]<='z') n[0]=n[0]-32;
+
+    printf("%s\n",n);
+
+    return 0;
+
+}
